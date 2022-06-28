@@ -1,4 +1,12 @@
-.ably-flg {
+.flgjs {
   width: 10px;
   height: 20px;
+}
+
+.colorflg {
+  background-color: black;
+}
+
+.disply {
+  display: flex;
 }

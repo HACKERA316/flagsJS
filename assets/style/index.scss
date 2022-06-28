@@ -3,6 +3,23 @@
     height: $height;
 }
 
-.ably-flg {
+@mixin bcolor($bcolors:null, $color:null) {
+    background-color: $bcolors;
+    color: $color;
+}
+
+.flgjs {
     @include flagssize(10px, 20px);
+}
+
+@mixin display($disply) {
+    display: $disply;
+}
+
+.colorflg {
+    @include bcolor(rgb(0, 0, 0))
+}
+
+.disply {
+    @include display(flex);
 }

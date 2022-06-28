@@ -1,5 +1,15 @@
-.ably-flg {
+.flgjs {
   width: 10px;
   height: 20px;
+}
+
+.colorflg {
+  background-color: black;
+}
+
+.disply {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=index.css.map */
