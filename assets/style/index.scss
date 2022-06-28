@@ -1,0 +1,8 @@
+@mixin flagssize($width: null, $height:null) {
+    width: $width;
+    height: $height;
+}
+
+.ably-flg {
+    @include flagssize(10px, 20px);
+}
